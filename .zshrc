@@ -72,7 +72,9 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle Vifon/deer
 
 # uncomment the line below to enable theme
-antigen theme agnoster
+# antigen theme agnoster
+antigen theme ys
+
 
 
 # check login shell
@@ -159,3 +161,4 @@ zstyle ':completion:*:complete:-command-:*:*' ignored-patterns '*.pdf|*.exe|*.dl
 export PATH="/home/yyc/miniconda3/bin:$PATH"
 
 export DOCKER_HOST=tcp://0.0.0.0:2375
+export PATH=~/.npm-global/bin:$PATH
